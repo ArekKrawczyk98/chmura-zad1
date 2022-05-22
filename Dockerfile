@@ -6,7 +6,7 @@ COPY build.gradle.kts build.gradle.kts
 COPY gradlew gradlew
 COPY gradle gradle
 COPY settings.gradle.kts settings.gradle.kts
-RUN ./gradlew clean build
+RUN sudo ./gradlew clean build
 
 
 FROM openjdk:11.0.15-jre-slim-buster
