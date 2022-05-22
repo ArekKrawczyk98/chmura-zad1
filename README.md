@@ -58,4 +58,17 @@ Rys. 4.1
 
 Link do zdalnego repozytorium: https://hub.docker.com/repository/docker/arekk41051/chmura-zad1
 
+### Zadania dodatkowe
+
+Utworzono plik yaml dla github actions, który buduje obraz przy wrzuceniu commita na gałąź main oraz następnie wysyła go do zdalnego repozytorium GitHub Packages
+
+![Rys 5.1](img/zad7.PNG)
+Rys. 5.1
+
+![Rys 5.2](img/zad5.PNG)
+Rys. 5.2
+
+![Rys 5.3](img/zad6.PNG)
+Rys. 5.3
+
 
