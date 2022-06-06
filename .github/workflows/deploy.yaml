@@ -35,6 +35,6 @@ jobs:
           application_name: chmura-lab
           environment_name: Chmuralab-env
           existing_bucket_name: elasticbeanstalk-us-east-1-060452653792
-          version_label: "Sample Application-${{ steps.format-time.outputs.replaced }}"
+          version_label: "chmura-lab-${{ steps.format-time.outputs.replaced }}"
           region: us-east-1
           deployment_package: deploy.zip
