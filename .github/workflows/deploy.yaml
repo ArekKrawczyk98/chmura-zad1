@@ -45,9 +45,6 @@ jobs:
           replace-with: '-'
           flags: 'g'
 
-      - name: Checkout source code
-        uses: actions/checkout@v2
-
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*'
 
