@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    image: arekk41051/chmura-zad1
+    ports:
+      - "80:8080"
